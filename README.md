@@ -23,6 +23,10 @@ The Caspio Data Page Processor is a Python-based automation tool designed to str
 ## Installation
 ```bash
 pip install selenium pandas openpyxl requests tqdm
+```
 
 ## Usage
+- Update the CaspioAPI class with your Caspio client credentials (client_id and client_secret).
+- Create an instance of CaspioDataPageProcessor with your Caspio account email, password, and the specific application name:
+
 
