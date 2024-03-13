@@ -25,7 +25,7 @@ The Caspio Data Page Processor requires Selenium WebDriver for its operation. Be
 
 ### WebDriver Downloads
 - **ChromeDriver for Windows, macOS, and Linux**: 
-  - [Download ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+  - [Download ChromeDriver](https://chromedriver.storage.googleapis.com/index.html?path=114.0.5735.90/)
   - Ensure to download the version of ChromeDriver that matches your Chrome browser's version.
 
 ### Setting Up WebDriver
