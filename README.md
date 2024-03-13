@@ -28,5 +28,18 @@ pip install selenium pandas openpyxl requests tqdm
 ## Usage
 - Update the CaspioAPI class with your Caspio client credentials (client_id and client_secret).
 - Create an instance of CaspioDataPageProcessor with your Caspio account email, password, and the specific application name:
-
-
+```bash
+processor = CaspioDataPageProcessor("your_email@example.com", "your_password", "your_app_name")
+```
+- Call the run method to start the data processing:
+```bash
+processor.run()
+```
+```bash
+processor.save_to_excel()
+processor.save_to_csv()
+processor.write_errors_to_file()
+```
+## Structure
+- CaspioAPI: Handles API interactions with Caspio, including authentication and data retrieval.
+- CaspioDataPageProcessor: Orchestrates the
