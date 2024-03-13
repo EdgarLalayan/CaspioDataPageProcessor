@@ -20,7 +20,27 @@ The Caspio Data Page Processor is a Python-based automation tool designed to str
 - Tqdm (for progress bar functionality)
 - A valid Caspio account with necessary access rights
 
+## Selenium WebDriver Installation
+The Caspio Data Page Processor requires Selenium WebDriver for its operation. Below are the links to download the WebDriver for different operating systems:
+
+### WebDriver Downloads
+- **ChromeDriver for Windows, macOS, and Linux**: 
+  - [Download ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+  - Ensure to download the version of ChromeDriver that matches your Chrome browser's version.
+
+### Setting Up WebDriver
+After downloading, extract the WebDriver and ensure it is placed in a directory included in your system's PATH. This will allow Selenium to access the WebDriver during the script execution. 
+
+For more detailed instructions on setting up Selenium WebDriver, you can refer to the [Selenium documentation](https://www.selenium.dev/documentation/en/).
+
+### Operating System Specific Notes
+- **macOS Users**: You may need to update security permissions to allow the execution of the WebDriver. This can typically be done through the 'Security & Privacy' settings if a warning prompts upon first execution.
+- **Linux Users**: Ensure that the WebDriver file has execution permissions. You can set this by running `chmod +x chromedriver` in the terminal where 'chromedriver' is the downloaded WebDriver file.
+
+With the WebDriver set up correctly, you'll be able to run the Caspio Data Page Processor without any issues related to Selenium.
+
 ## Installation
+
 ```bash
 pip install selenium pandas openpyxl requests tqdm
 ```
