@@ -27,6 +27,24 @@ The Caspio Data Page Processor requires Selenium WebDriver for its operation. Be
 - **ChromeDriver for Windows, macOS, and Linux**: 
   - [Download ChromeDriver](https://chromedriver.storage.googleapis.com/index.html?path=114.0.5735.90/)
   - Ensure to download the version of ChromeDriver that matches your Chrome browser's version.
+## Useful Links and Resources
+
+In addition to the core documentation and setup instructions, the following resources can be very helpful for advanced usage and understanding of the technologies and platforms involved in the Caspio Data Page Processor:
+
+- **Running Selenium WebDriver with Python on AWS EC2**:
+  - [Guide by PreethamDPG on Medium](https://preethamdpg.medium.com/running-selenium-webdriver-with-python-on-an-aws-ec2-instance-be9780c97d47)
+  - This guide offers a detailed walkthrough for setting up Selenium WebDriver to run with Python on an AWS EC2 instance, which can be particularly useful for cloud-based automation tasks.
+
+- **Selenium Official Documentation**:
+  - [Selenium Documentation](https://www.selenium.dev/documentation/en/)
+  - A great resource for understanding the Selenium WebDriver in detail, including various aspects of browser automation.
+
+- **Caspio REST API Reference**:
+  - [Caspio REST API Documentation](https://howto.caspio.com/rest-api/)
+  - Provides comprehensive information about Caspio's REST API, which is integral to this script for data fetching and manipulation.
+
+Including these resources in your README gives users additional avenues to explore and learn from, making their experience with your script more enriching and productive. 
+
 
 ### Setting Up WebDriver
 After downloading, extract the WebDriver and ensure it is placed in a directory included in your system's PATH. This will allow Selenium to access the WebDriver during the script execution. 
