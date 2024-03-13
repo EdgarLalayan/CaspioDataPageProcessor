@@ -43,3 +43,15 @@ processor.write_errors_to_file()
 ## Structure
 - CaspioAPI: Handles API interactions with Caspio, including authentication and data retrieval.
 - CaspioDataPageProcessor: Orchestrates the
+
+## Error Handling and Logs
+If any errors occur during the operation of the Caspio Data Page Processor, the script is designed to capture these issues and log them into a text file for later review and troubleshooting. This feature ensures that any problems encountered during the processing of datapages can be systematically addressed.
+
+### Error Log File
+- **File Name**: `errorLogsCaspioDataPageProcessor.txt`
+- **Location**: The file is created in the current working directory of the script.
+- **Content**: Contains detailed logs of any exceptions or errors encountered during the execution of the script.
+- **Usage**: Review this log file to understand and rectify any issues that may have occurred. This is particularly useful for identifying and resolving problems in subsequent runs of the processor.
+
+It is recommended to regularly check this log file if you're running the processor frequently or with large datasets. Timely identification and resolution of issues will ensure smoother operation and maintenance of your Caspio Data Page Processor.
+
