@@ -27,8 +27,8 @@ class CaspioAPI:
         self.base_url = "https://umnitech.caspio.com/rest/v2/"
 
     def get_access_token(self):
-        client_id = 'bf6207b0e30245f5297065ad167fc1e81aaff466b96e883177'
-        client_secret = 'fd4fc452821846869f97c9d3f719f01362c95425d938ca4e6a'
+        client_id = ''
+        client_secret = ''
         token_url = 'https://c0abo866.caspio.com/oauth/token'
 
         data = {
@@ -506,7 +506,7 @@ class CaspioDataPageProcessor:
 
 if __name__ == "__main__":
     processor = CaspioDataPageProcessor(
-        "tkeal96@gmail.com", "Masivski96$", "WorkMovr 4") 
+        "Login", "Password", "WorkMovr 4") 
     processor.run()
     processor._retry_errors(errorLogsCaspioDataPageProcessor=True)
 
